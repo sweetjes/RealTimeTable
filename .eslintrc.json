@@ -1,0 +1,15 @@
+{
+  "extends": ["airbnb", "prettier", "prettier/react"],
+  "plugins": ["prettier"],
+  "rules": {
+    "linebreak-style": "off",
+    // Enforce tab width of 2 spaces.
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "indent": 2,
+    "max-len": ["error", { "code": 130 }],
+    "camelcase": "error",
+    "import/no-named-as-default": 0,
+    "import/no-named-as-default-member": 0,
+    "no-case-declarations": "off"
+  }
+}
